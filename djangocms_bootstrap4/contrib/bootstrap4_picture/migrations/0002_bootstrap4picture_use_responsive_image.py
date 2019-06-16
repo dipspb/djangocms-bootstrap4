@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 from django.db import migrations, models
 
-from djangocms_picture.models import RESPONSIVE_IMAGE_CHOICES
+from djangocms_picture.models.AbstractPicture import RESPONSIVE_IMAGE_CHOICES
 
 
 class Migration(migrations.Migration):
